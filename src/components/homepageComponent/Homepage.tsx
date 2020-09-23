@@ -1,6 +1,8 @@
 import React from 'react';
 import Intro from '../intro/IntroComponent';
 import ButtonAppBar from '../navbarComponent/Navbar';
+import NewsLetter from '../newsLetterComponent/NewsLetterComp';
+import Services from '../serviceComponent/ServicesComp';
 
 
 
@@ -18,6 +20,8 @@ export class HomepageComponent extends React.Component {
             <>
                 <ButtonAppBar/>
                 <Intro/>
+                <Services/>
+                <NewsLetter/>
             </>
         )
     }

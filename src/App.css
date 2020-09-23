@@ -52,7 +52,52 @@
   padding-right: 20%;
 }
 
-#navbar {
+/* #navbar {
   border-bottom: blue;
   border-bottom-style: solid
+} */
+
+#services {
+  background-color:#117E65;
+  padding: 5%;
+
+}
+.service {
+  border-style: solid;
+  border-color: lightblue;
+
+}
+
+#service1, #service3, #service4 {
+  width: 30%;
+  margin: auto;
+  height: 200px;
+}
+
+#service2 {
+  height: 250px;
+  width: 35%;
+  font-weight: 25px;
+}
+
+
+#logo {
+  color:lightskyblue;
+  font-weight: 600;
+}
+
+#newsLetter {
+  width: 40%;
+  margin: auto;
+}
+
+.inputName {
+  margin:auto;
+}
+
+#newsLetterButton {
+
+  width: 50%;
+  margin: auto;
+
 }
