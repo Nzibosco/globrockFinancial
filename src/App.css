@@ -64,7 +64,7 @@
 }
 .service {
   border-style: solid;
-  border-color: lightblue;
+  border-color: rgb(12, 11, 104);
 
 }
 
@@ -78,6 +78,8 @@
   height: 250px;
   width: 35%;
   font-weight: 25px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
 
