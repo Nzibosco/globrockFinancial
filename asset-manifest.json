@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.98a321e6.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.3c7aa199.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.3c7aa199.chunk.js.map",
-    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.50e0553d.js",
-    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.50e0553d.js.map",
-    "static/js/2.1ddfe1b4.chunk.js": "/react-gh-pages/static/js/2.1ddfe1b4.chunk.js",
-    "static/js/2.1ddfe1b4.chunk.js.map": "/react-gh-pages/static/js/2.1ddfe1b4.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "precache-manifest.5a0b6159b8e7bdb3e397c242f4676199.js": "/react-gh-pages/precache-manifest.5a0b6159b8e7bdb3e397c242f4676199.js",
-    "service-worker.js": "/react-gh-pages/service-worker.js",
-    "static/css/main.98a321e6.chunk.css.map": "/react-gh-pages/static/css/main.98a321e6.chunk.css.map",
-    "static/js/2.1ddfe1b4.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.1ddfe1b4.chunk.js.LICENSE.txt"
+    "main.css": "/globrockFinancial/static/css/main.98a321e6.chunk.css",
+    "main.js": "/globrockFinancial/static/js/main.4f0e20e1.chunk.js",
+    "main.js.map": "/globrockFinancial/static/js/main.4f0e20e1.chunk.js.map",
+    "runtime-main.js": "/globrockFinancial/static/js/runtime-main.00d5d366.js",
+    "runtime-main.js.map": "/globrockFinancial/static/js/runtime-main.00d5d366.js.map",
+    "static/js/2.1ddfe1b4.chunk.js": "/globrockFinancial/static/js/2.1ddfe1b4.chunk.js",
+    "static/js/2.1ddfe1b4.chunk.js.map": "/globrockFinancial/static/js/2.1ddfe1b4.chunk.js.map",
+    "index.html": "/globrockFinancial/index.html",
+    "precache-manifest.5a8774a4bf6fe02fe9d50b65d96696d2.js": "/globrockFinancial/precache-manifest.5a8774a4bf6fe02fe9d50b65d96696d2.js",
+    "service-worker.js": "/globrockFinancial/service-worker.js",
+    "static/css/main.98a321e6.chunk.css.map": "/globrockFinancial/static/css/main.98a321e6.chunk.css.map",
+    "static/js/2.1ddfe1b4.chunk.js.LICENSE.txt": "/globrockFinancial/static/js/2.1ddfe1b4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.50e0553d.js",
+    "static/js/runtime-main.00d5d366.js",
     "static/js/2.1ddfe1b4.chunk.js",
     "static/css/main.98a321e6.chunk.css",
-    "static/js/main.3c7aa199.chunk.js"
+    "static/js/main.4f0e20e1.chunk.js"
   ]
 }
