@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../footerComponent/FooterComponent';
 import Intro from '../intro/IntroComponent';
 import ButtonAppBar from '../navbarComponent/Navbar';
 import NewsLetter from '../newsLetterComponent/NewsLetterComp';
@@ -22,6 +23,7 @@ export class HomepageComponent extends React.Component {
                 <Intro/>
                 <Services/>
                 <NewsLetter/>
+                <Footer/>
             </>
         )
     }
