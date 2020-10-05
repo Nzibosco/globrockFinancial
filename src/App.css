@@ -64,6 +64,7 @@
 #services {
 
   padding: 5%;
+  color: white
 
 }
 .service {
@@ -73,21 +74,27 @@
 
 }
 
-#service1, #service3, #service4 {
-  width: 30.5%;
-  margin: auto;
-  height: 200px;
-  background-color:#117E65;
+#service1, #service2, #service3 {
+
+  height: 400px;
+  background-color: #117E65;
+  color: white;
+
 }
 
-#service2 {
+/* .serviceDescription {
+  color: white;
+  background-color: #282c34;
+} */
+
+/* #service2 {
   height: 250px;
   width: 35%;
   font-weight: 25px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   background-color:#117E65;
-}
+} */
 
 /* #carouselExampleCaptions {
   height: auto;
@@ -99,6 +106,11 @@
   background-color: white;
 
 }
+
+/* .serviceSlide {
+  height: 300px;
+  width: 100%;
+} */
 
 .carousel-caption {
   color: black;
