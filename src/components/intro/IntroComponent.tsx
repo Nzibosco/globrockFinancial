@@ -6,7 +6,7 @@ export default function Intro() {
 
         <div className = "jumbotron text-center" id ="intro">
             <h1 className="display-4" id = "brandName">Globrock Financial</h1>
-            <p className="lead">The Globrock Financial Group, Inc. is a global management and investment advisory 
+            <p className="lead" id="pitch">The Globrock Financial Group, Inc. is a global management and investment advisory 
             consulting firm. Our staff offers extensive knowledge and expertise in management consulting, 
             investment management, investment advisory, and other financial services primarily with Small 
             and Medium Enterprises and institutional clients.</p>

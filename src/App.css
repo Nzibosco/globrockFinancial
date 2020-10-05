@@ -52,19 +52,24 @@
   padding-right: 20%;
 }
 
+#pitch {
+  color: rgb(55, 16, 165)
+}
+
 /* #navbar {
   border-bottom: blue;
   border-bottom-style: solid
 } */
 
 #services {
-  background-color:#117E65;
+
   padding: 5%;
 
 }
 .service {
   border-style: solid;
   border-color: rgb(12, 11, 104);
+  background-color: inherit;
 
 }
 
@@ -72,6 +77,7 @@
   width: 30.5%;
   margin: auto;
   height: 200px;
+  background-color:#117E65;
 }
 
 #service2 {
@@ -80,17 +86,46 @@
   font-weight: 25px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  background-color:#117E65;
 }
 
+/* #carouselExampleCaptions {
+  height: auto;
+} */
+
+/*  carousel CSS  */
+.serviceImage {
+  height: 200px;
+  background-color: white;
+
+}
+
+.carousel-caption {
+  color: black;
+  /* border-style: solid;
+  border-color: black;
+  border-radius: 30px; */
+  padding-top: 90px;
+}
+
+#slides {
+background-color: lightgray;
+border-radius: 25px;
+}
 
 #logo {
   color:lightskyblue;
   font-weight: 600;
 }
 
+#newsLetterArea {
+  margin-top: 20px;
+}
+
 #newsLetter {
   width: 40%;
   margin: auto;
+  
 }
 
 .inputName {
@@ -102,4 +137,11 @@
   width: 50%;
   margin: auto;
 
+}
+
+#footer {
+  background-color: gray;
+  color: white;
+  padding-top: 20px;
+  margin-top: 20px;
 }
