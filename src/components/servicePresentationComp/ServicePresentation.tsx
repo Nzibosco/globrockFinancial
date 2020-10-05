@@ -14,7 +14,7 @@ export function ServicePresentation() {
                 <li data-target="#carouselExampleCaptions" data-slide-to="2" className = "slide"></li>
             </ol>
             <div className="carousel-inner">
-                <div className="carousel-item active">
+                <div className="carousel-item active" data-interval="3000">
                     {/* <img src="..." className="d-block w-100 serviceImage" alt="..." /> */}
                     <div className="d-block w-100 serviceImage"> 
 
@@ -26,7 +26,7 @@ export function ServicePresentation() {
                             Business Processes, Technical feasibility studies, all the way to Risk Management</p>
                     </div>
                 </div>
-                <div className="carousel-item">
+                <div className="carousel-item" data-interval="3000">
                     {/* <img src="..." className="d-block w-100" alt="..." /> */}
                     <div className="d-block w-100 serviceImage"> 
 
@@ -38,7 +38,7 @@ export function ServicePresentation() {
                         </p>
                     </div>
                 </div>
-                <div className="carousel-item">
+                <div className="carousel-item" data-interval="3000">
                     {/* <img src="..." className="d-block w-100" alt="..." /> */}
                     <div className="d-block w-100 serviceImage"> 
 
