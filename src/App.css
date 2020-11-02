@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; 
 }
 
 .App-link {
@@ -96,9 +96,9 @@
   background-color:#117E65;
 } */
 
-/* #carouselExampleCaptions {
-  height: auto;
-} */
+#carouselExampleCaptions {
+  
+}
 
 /*  carousel CSS  */
 .serviceImage {
@@ -156,4 +156,9 @@ border-radius: 25px;
   color: white;
   padding-top: 20px;
   margin-top: 20px;
+}
+
+#giraffe {
+  width: 98%;
+  margin: auto;
 }

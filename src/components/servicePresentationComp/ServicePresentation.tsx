@@ -33,7 +33,7 @@ export function ServicePresentation() {
                     </div>
                     <div className="carousel-caption">
                         <h4>Investment Advisory</h4>
-                        <p>We Raising funds for Governments and Private Sector, Finance Private Projects, Manage your Assets, and 
+                        <p>We Raise funding for Governments and Private Sector, Finance Private Projects, Manage your Assets, and 
                             Help you deal with Mergers and Acquisition with ease
                         </p>
                     </div>
