@@ -9,7 +9,7 @@ export default function Intro() {
             <p className="lead" id="pitch">The Globrock Financial Group, Inc. is a global management and investment advisory 
             consulting firm. Our staff offers extensive knowledge and expertise in management consulting, 
             investment management, investment advisory, and other financial services primarily with Small 
-            and Medium Enterprises and institutional clients.</p>
+            and Medium Enterprises and Institutional Clients.</p>
             <br/>
             <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
         </div>
