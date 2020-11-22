@@ -5,10 +5,10 @@ import { ServicePresentation } from '../servicePresentationComp/ServicePresentat
 export default function ImageComp (){
 
     return (
-        <div className = 'row'>
+        <div className = 'row expand-lg'>
             <img src= 'https://globrockimages.s3.us-east-2.amazonaws.com/images/Nairobi_Giraffe_2.jpg' 
             id='giraffe' alt='Nairobi'/>
-            <ServicePresentation/>
+            {/* <ServicePresentation/> */}
         </div>
     )
 }

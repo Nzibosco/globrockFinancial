@@ -1,11 +1,9 @@
 import React from 'react';
-import AttachMoneyIcon from '@material-ui/icons/AttachMoney'; 
 
 
 export function ServicePresentation() {
 
     return (
-
 
         <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators" id = "slides">
@@ -15,10 +13,6 @@ export function ServicePresentation() {
             </ol>
             <div className="carousel-inner">
                 <div className="carousel-item active" data-interval="3000">
-                    {/* <img src="..." className="d-block w-100 serviceImage" alt="..." /> */}
-                    <div className="d-block w-100 serviceImage"> 
-
-                    </div>
 
                     <div className="carousel-caption">
                         <h4>Management Consulting</h4>
@@ -27,10 +21,6 @@ export function ServicePresentation() {
                     </div>
                 </div>
                 <div className="carousel-item" data-interval="3000">
-                    {/* <img src="..." className="d-block w-100" alt="..." /> */}
-                    <div className="d-block w-100 serviceImage"> 
-
-                    </div>
                     <div className="carousel-caption">
                         <h4>Investment Advisory</h4>
                         <p>We Raise funding for Governments and Private Sector, Finance Private Projects, Manage your Assets, and 
@@ -38,11 +28,7 @@ export function ServicePresentation() {
                         </p>
                     </div>
                 </div>
-                <div className="carousel-item" data-interval="3000">
-                    {/* <img src="..." className="d-block w-100" alt="..." /> */}
-                    <div className="d-block w-100 serviceImage"> 
-
-                    </div>
+                <div className="carousel-item" data-interval="3700">
                     <div className="carousel-caption">
                         <h4>Financial Consulting</h4>
                         <p>We bring in our expertise to help you with Capital Market Design, Development, and Implementation. 

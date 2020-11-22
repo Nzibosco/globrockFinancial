@@ -4,7 +4,7 @@ import React from 'react';
 export default function Intro() {
     return (
 
-        <div className = "jumbotron text-center" id ="intro">
+        <div className = "jumbotron expand-lg text-center" id ="intro">
             <h1 className="display-4" id = "brandName">Globrock Financial</h1>
             <p className="lead" id="pitch">The Globrock Financial Group, Inc. is a global management and investment advisory 
             consulting firm. Our staff offers extensive knowledge and expertise in management consulting, 

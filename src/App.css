@@ -56,10 +56,12 @@
   color: rgb(55, 16, 165)
 }
 
-/* #navbar {
-  border-bottom: blue;
-  border-bottom-style: solid
-} */
+
+.carousel-inner {
+  padding-top: 320px;
+  background-color: lightgray;
+  height: 500px;
+}
 
 #services {
 
@@ -96,16 +98,6 @@
   background-color:#117E65;
 } */
 
-#carouselExampleCaptions {
-  
-}
-
-/*  carousel CSS  */
-.serviceImage {
-  height: 200px;
-  background-color: white;
-
-}
 
 /* .serviceSlide {
   height: 300px;
@@ -116,18 +108,33 @@
   color: black;
   /* border-style: solid;
   border-color: black;
-  border-radius: 30px; */
-  padding-top: 90px;
+  border-radius: 30px; 
+  padding-top: 90px;*/
 }
 
 #slides {
-background-color: lightgray;
+  background-color: #2a2a2c;
 border-radius: 25px;
 }
 
+
+
 #logo {
   color:lightskyblue;
-  font-weight: 600;
+  font-weight: 650;
+  padding-left: 20px;
+}
+
+#nav-links {
+  margin: auto;
+}
+
+#about, #service, #contact {
+  color: rgb(17, 21, 24);
+  padding: 20px;
+  font-weight: 800;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 #newsLetterArea {
@@ -159,6 +166,12 @@ border-radius: 25px;
 }
 
 #giraffe {
-  width: 98%;
   margin: auto;
+  width: 100%;
 }
+
+html{ 
+  overflow-x: hidden;
+}
+
+

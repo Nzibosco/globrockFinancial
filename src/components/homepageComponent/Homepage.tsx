@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../footerComponent/FooterComponent';
 import ImageComp from '../imageComponent/ImageComponent';
 import Intro from '../intro/IntroComponent';
+import Navbar from '../navbarComponent/Navbar';
 import ButtonAppBar from '../navbarComponent/Navbar';
 import NewsLetter from '../newsLetterComponent/NewsLetterComp';
 import Services from '../serviceComponent/ServicesComp';
@@ -21,12 +22,11 @@ export class HomepageComponent extends React.Component {
     render(){
         return(
             <>
-                <ButtonAppBar/>
+                <Navbar/>
                 <Intro/>
                 <ImageComp/>
                 <ServicePresentation/>
                 <Services/>
-                <NewsLetter/>
                 <Footer/>
             </>
         )
