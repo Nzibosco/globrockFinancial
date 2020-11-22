@@ -28,7 +28,7 @@ export function ServicePresentation() {
                         </p>
                     </div>
                 </div>
-                <div className="carousel-item" data-interval="3700">
+                <div className="carousel-item" data-interval="3600">
                     <div className="carousel-caption">
                         <h4>Financial Consulting</h4>
                         <p className="lead">We bring in our expertise to help you with Capital Market Design, Development, and Implementation. 

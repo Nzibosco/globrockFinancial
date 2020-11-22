@@ -178,5 +178,16 @@ body {
   background-color: #0A4B78;
 }
 
+.partner {
+  color: white;
+}
 
+.footerItem {
+  padding: 20px;
+}
+
+.footerItem > h6 {
+
+  color: lightskyblue;
+}
 
