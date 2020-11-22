@@ -1,20 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { HomepageComponent } from './components/homepageComponent/Homepage';
 import Navbar from './components/navbarComponent/Navbar';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import About from './components/aboutComponent/About';
 
 function App() {
   return (
     <>
-    <Router>
-      <Navbar/>
-      <Switch>
-        <Route exact path = "/" component = {HomepageComponent}/>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path="/about" component={About} />
+          <Route exact path="/" component={HomepageComponent} />
 
-      </Switch>
-    </Router>
+        </Switch>
+      </Router>
     </>
   );
 }

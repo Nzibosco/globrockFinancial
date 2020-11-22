@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 export default function Intro() {
@@ -11,7 +12,7 @@ export default function Intro() {
             investment management, investment advisory, and other financial services primarily with Small 
             and Medium Enterprises and Institutional Clients.</p>
             <br/>
-            <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <Link to='about'><a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a></Link>
         </div>
 
     );

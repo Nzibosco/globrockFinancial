@@ -50,6 +50,7 @@
   background-color: white;
   padding-left: 20%;
   padding-right: 20%;
+  margin-bottom: 0;
 }
 
 #pitch {
@@ -166,8 +167,9 @@ border-radius: 25px;
 }
 
 #giraffe {
-  margin: auto;
+  height: 100%;
   width: 100%;
+  margin: 0;
 }
 
 html{ 
@@ -191,3 +193,16 @@ body {
   color: lightskyblue;
 }
 
+#aboutComponent {
+  color: white;
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 50px;
+  text-align: justify;
+}
+
+#aboutComponent > b {
+  color: lightskyblue;
+  font-size: larger;
+  font-weight: 300;
+}
