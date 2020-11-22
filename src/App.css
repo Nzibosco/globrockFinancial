@@ -126,7 +126,7 @@ border-radius: 25px;
 }
 
 #about, #service, #contact {
-  color: rgb(17, 21, 24);
+  color:white;
   padding: 20px;
   font-weight: 800;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -155,10 +155,14 @@ border-radius: 25px;
 }
 
 #footer {
+  width: 95%;
   background-color: inherit;
   color: white;
-  padding-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-top: 20px;
+  margin: auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #giraffe {
