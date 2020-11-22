@@ -25,7 +25,7 @@ export function ServicePresentation() {
                         <h4>Investment Advisory</h4>
                         <p className="lead">We Raise funding for Governments and Private Sector, Finance Private Projects, Manage your Assets, and 
                             Help you deal with Mergers and Acquisition with ease
-                        </p>
+                        </p> <br/>
                     </div>
                 </div>
                 <div className="carousel-item" data-interval="3600">

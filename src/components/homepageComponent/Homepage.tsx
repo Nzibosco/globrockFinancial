@@ -21,7 +21,7 @@ export class HomepageComponent extends React.Component {
         return(
             <>
                 <Intro/>
-                <ImageComp/>
+                {/* <ImageComp/> */}
                 <ServicePresentation/>
                 <Services/>
                 <Footer/>

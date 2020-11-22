@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -6,6 +7,7 @@
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -47,9 +49,6 @@
 }
 
 #intro {
-  background-color: white;
-  padding-left: 20%;
-  padding-right: 20%;
   margin-bottom: 0;
 }
 
@@ -57,11 +56,20 @@
   color: rgb(55, 16, 165)
 }
 
+#carouselExampleCaptions {
+  width: 100%;
+  height: 60vmin;
+  background-image: url('https://globrockimages.s3.us-east-2.amazonaws.com/images/Nairobi_Giraffe_2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  
+}
+
 
 .carousel-inner {
-  padding-top: 320px;
-  background-color: lightgray;
-  height: 500px;
+ padding: 50vmin 0vmin;
+
 }
 
 #services {
@@ -77,34 +85,6 @@
 
 }
 
-#service1, #service2, #service3 {
-
-  height: 400px;
-  background-color: #117E65;
-  color: white;
-
-}
-
-/* .serviceDescription {
-  color: white;
-  background-color: #282c34;
-} */
-
-/* #service2 {
-  height: 250px;
-  width: 35%;
-  font-weight: 25px;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  background-color:#117E65;
-} */
-
-
-/* .serviceSlide {
-  height: 300px;
-  width: 100%;
-} */
-
 .carousel-caption {
   color: rgb(55, 16, 165)
 }
@@ -112,7 +92,10 @@
 #slides {
   background-color: #2a2a2c;
 border-radius: 25px;
+/* position: -ms-page; */
 }
+
+
 
 
 
@@ -134,26 +117,11 @@ border-radius: 25px;
 
 }
 
-#newsLetterArea {
-  margin-top: 20px;
-}
-
-#newsLetter {
-  width: 40%;
-  margin: auto;
-  
-}
 
 .inputName {
   margin:auto;
 }
 
-#newsLetterButton {
-
-  width: 50%;
-  margin: auto;
-
-}
 
 #footer {
   width: 95%;
@@ -178,6 +146,7 @@ html{
 
 body {
   background-color: #0A4B78;
+  overflow-x: hidden;
 }
 
 .partner {
