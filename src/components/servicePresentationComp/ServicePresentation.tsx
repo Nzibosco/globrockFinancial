@@ -16,22 +16,22 @@ export function ServicePresentation() {
 
                     <div className="carousel-caption">
                         <h4>Management Consulting</h4>
-                        <p className="lead">Helping you tackle challenging tasks from Import/Export documentation and strategies, 
+                        <p className = 'lead'>Helping you tackle challenging tasks from Import/Export documentation and strategies, 
                             Business Processes, Technical feasibility studies, all the way to Risk Management</p>
                     </div>
                 </div>
                 <div className="carousel-item" data-interval="3000">
                     <div className="carousel-caption">
                         <h4>Investment Advisory</h4>
-                        <p className="lead">We Raise funding for Governments and Private Sector, Finance Private Projects, Manage your Assets, and 
+                        <p className = 'lead'>We Raise funding for Governments and Private Sector, Finance Private Projects, Manage your Assets, and 
                             Help you deal with Mergers and Acquisition with ease
-                        </p> <br/>
+                        </p>
                     </div>
                 </div>
                 <div className="carousel-item" data-interval="3600">
                     <div className="carousel-caption">
                         <h4>Financial Consulting</h4>
-                        <p className="lead">We bring in our expertise to help you with Capital Market Design, Development, and Implementation. 
+                        <p className = 'lead'>We bring in our expertise to help you with Capital Market Design, Development, and Implementation. 
                             We also help you with Payment Systems Design and Implementation</p>
                     </div>
                 </div>

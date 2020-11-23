@@ -50,6 +50,7 @@
 
 #intro {
   margin-bottom: 0;
+  border-radius: 0%;
 }
 
 #pitch {
@@ -68,7 +69,9 @@
 
 
 .carousel-inner {
+  
  padding: 50vmin 0vmin;
+
 
 }
 
@@ -78,15 +81,20 @@
   color: white
 
 }
-.service {
+/* .service {
   border-style: solid;
-  border-color: rgb(12, 11, 104);
+  border-color: rgb(114, 116, 98);
   background-color: inherit;
 
-}
+} */
 
 .carousel-caption {
-  color: rgb(55, 16, 165)
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.carousel-caption > h4 {
+  color: black;
 }
 
 #slides {
@@ -174,4 +182,21 @@ body {
   color: lightskyblue;
   font-size: larger;
   font-weight: 300;
+}
+
+/* social media icons style  */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 34px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  position: relative;
+  
+}
+
+.fa:hover {
+  opacity: 0.7;
 }

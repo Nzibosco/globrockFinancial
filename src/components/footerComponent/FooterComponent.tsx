@@ -29,7 +29,16 @@ export default function Footer () {
                 <small> City of Chicago</small><br/>
             </div>
         </div>
-        <div className = "row" id="social">
+        <div className = "row">
+            <p id="social">
+
+
+                    <a className="fa fa-linkedin" href="https://www.linkedin.com/in/bosconzeyi/"
+                        target="blank"></a> 
+                    <a className="fa fa-twitter" href="https://twitter.com/nzibosco" target="blank"></a>
+
+                    <a className="fa fa-facebook" href="https://www.facebook.com/nzibosco" target="blank"></a>
+            </p>
 
         </div>
         <div className="row" id = "poweredBy"></div>
