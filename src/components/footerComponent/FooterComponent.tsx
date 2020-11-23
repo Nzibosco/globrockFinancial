@@ -29,9 +29,8 @@ export default function Footer () {
                 <small> City of Chicago</small><br/>
             </div>
         </div>
-        <div className = "row">
-            <p id="social">
-
+        <div className = "row" id="social">
+            <p >
 
                     <a className="fa fa-linkedin" href="https://www.linkedin.com/in/bosconzeyi/"
                         target="blank"></a> 
@@ -41,7 +40,9 @@ export default function Footer () {
             </p>
 
         </div>
-        <div className="row" id = "poweredBy"></div>
+        <div className="row" id = "poweredBy">
+
+        </div>
     </footer>
     );
 }
