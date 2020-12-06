@@ -39,18 +39,81 @@
   }
 }
 
+#navbar {
+  /* background-image: url('../src/images/screenshootChicago.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+  /* background: inherit;
+  position: absolute;
+  z-index: 1;
+  top: 1px; */
+  /* background-color: #282c34; */
+  /* width: 50%; */
+  /* margin: auto; */
+
+}
+
+#navbarNavAltMarkup {
+  position: absolute;
+  z-index: 1;
+  top: 1px;
+  margin-left: 40%;
+  background-color: #94B3D0;
+  overflow-block: visible;
+
+
+}
+
+#home {
+  position: relative;
+}
+
 #brandName {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 70px;
+  font-size: 55px;
   font-weight: 700;
+  color: rgb(11, 41, 11);
   
 
+  
+}
+
+#financial {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: oblique;
+  color: rgb(3, 43, 3);
+  width: fit-content;
+  margin: auto;
+  background-color: #9FBAD7;
+ 
+}
+
+#highlight {
+  
+  font-weight: 500;
+  color:rgb(255, 255, 255);
+
+}
+
+.hi2 {
+  background-color: #33537C;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 #intro {
   margin-bottom: 0;
   border-radius: 0%;
+  background: inherit;
+  /* background-image: url('../src/images/Chicago.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin-top: -10px; */
+  height: 60vh;
+ 
+
 }
 
 #pitch {
@@ -58,19 +121,22 @@
 }
 
 #carouselExampleCaptions {
-  width: 100%;
-  height: 60vmin;
-  background-image: url('https://globrockimages.s3.us-east-2.amazonaws.com/images/Nairobi_Giraffe_2.jpg');
-  background-repeat: no-repeat;
+  /* width: 100%;
+  height: 60vmin; */
+  /* background-image: url('https://globrockimages.s3.us-east-2.amazonaws.com/images/Nairobi_Giraffe_2.jpg'); */
+  /* background-repeat: no-repeat;
   background-size: 100% auto;
-
+   */
+background-color: #0A4B78;
+/* background-image: url('../src/service1.png'); */
   
 }
 
 
 .carousel-inner {
   
- padding: 50vmin 0vmin;
+ padding-top: 300px;
+ padding-bottom: 100px;
 
 
 }
@@ -78,7 +144,7 @@
 #services {
 
   padding: 5%;
-  color: white
+  color: white;
 
 }
 /* .service {
@@ -89,12 +155,16 @@
 } */
 
 .carousel-caption {
-  color: white;
+  color: rgb(173, 175, 152);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
 }
 
 .carousel-caption > h4 {
-  color: black;
+  color: white;
+  font-weight: 700;
+  
+
 }
 
 #slides {
@@ -110,7 +180,7 @@ border-radius: 25px;
 #logo {
   color:lightskyblue;
   font-weight: 650;
-  padding-left: 20px;
+
 }
 
 #nav-links {
@@ -130,15 +200,30 @@ border-radius: 25px;
   margin:auto;
 }
 
+#quote {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #0A4B78;
+  color: white;
+}
 
-#footer {
-  width: 95%;
-  background-color: inherit;
+#quote > h1 {
+  color: white;
+}
+
+#options {
+  border-radius: 60px;
+  padding: 5px;
+}
+
+footer {
+  width: 100%;
+  /* background-color: inherit; */
+  background-color: black;
   color: white;
   padding-top: 50px;
   padding-bottom: 50px;
-  margin-top: 20px;
-  margin: auto;
+  margin-bottom: 50px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -153,8 +238,11 @@ html{
 }
 
 body {
-  background-color: #0A4B78;
+  /* background-color: #0A4B78; */
   overflow-x: hidden;
+  background-image: url('../src/images/Chicago.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .partner {
@@ -202,6 +290,10 @@ body {
 }
 
 #social {
-  float: right;
-  clear: both;
+  background-color: inherit;
+}
+
+#socialSection {
+  width: 50%;
+  margin: auto;
 }

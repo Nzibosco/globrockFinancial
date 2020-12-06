@@ -6,6 +6,20 @@ export default function Footer () {
 
     return (
     <footer className="" id="footer">
+                <div className = "row" id="social" >
+
+<div id = 'socialSection'>
+{/* <p> */}
+
+        <a className="fa fa-linkedin" href="https://www.linkedin.com/in/bosconzeyi/"
+            target="blank"></a> 
+        <a className="fa fa-twitter" href="https://twitter.com/nzibosco" target="blank"></a>
+
+        <a className="fa fa-facebook" href="https://www.facebook.com/nzibosco" target="blank"></a>
+{/* </p> */}
+</div>
+
+</div>
         <div className = "row">
             <div className="contactUs footerItem col-md-4">
                 <h6>CONTACT US</h6>
@@ -29,17 +43,7 @@ export default function Footer () {
                 <small> City of Chicago</small><br/>
             </div>
         </div>
-        <div className = "row" id="social">
-            <p >
 
-                    <a className="fa fa-linkedin" href="https://www.linkedin.com/in/bosconzeyi/"
-                        target="blank"></a> 
-                    <a className="fa fa-twitter" href="https://twitter.com/nzibosco" target="blank"></a>
-
-                    <a className="fa fa-facebook" href="https://www.facebook.com/nzibosco" target="blank"></a>
-            </p>
-
-        </div>
         <div className="row" id = "poweredBy">
 
         </div>

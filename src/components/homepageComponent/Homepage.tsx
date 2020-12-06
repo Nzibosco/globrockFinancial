@@ -3,6 +3,7 @@ import Footer from '../footerComponent/FooterComponent';
 import ImageComp from '../imageComponent/ImageComponent';
 import Intro from '../intro/IntroComponent';
 import Navbar from '../navbarComponent/Navbar';
+import Quote from '../quoteComponent/Quote';
 import Services from '../serviceComponent/ServicesComp';
 import { ServicePresentation } from '../servicePresentationComp/ServicePresentation';
 
@@ -19,13 +20,14 @@ export class HomepageComponent extends React.Component {
 
     render(){
         return(
-            <>
+            <div id = 'home'>
                 <Intro/>
                 {/* <ImageComp/> */}
                 <ServicePresentation/>
-                <Services/>
+                <Quote/>
+                {/* <Services/> */}
                 <Footer/>
-            </>
+            </div>
         )
     }
 }
