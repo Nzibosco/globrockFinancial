@@ -53,20 +53,36 @@
 
 }
 
-#navbarNavAltMarkup {
-  position: absolute;
-  z-index: 1;
-  top: 1px;
-  margin-left: 40%;
-  background-color: #94B3D0;
-  overflow-block: visible;
+/* CSS for Nav bar collapse on mobile phone*/
 
-
+@media (max-width: 992px) {
+  .navbar-collapse {
+      position: absolute;
+      top: 54px;
+      right: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      width: 60%;
+      transition: all 0.1s ease;
+      display: block;
+      background-color: rgb(20, 22, 10);
+      opacity: 0.9;
+      height: 75vh;
+      z-index: 8;
+      border-radius: 10px;
+  }
+  .navbar-collapse.collapsing {
+      height: auto !important;
+      margin-right: 50%;
+      transition: all 0.1s ease;
+      display: block;
+  }
+  .navbar-collapse.show {
+      right: 0;
+  }
 }
 
-#home {
-  position: relative;
-}
 
 #brandName {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -111,9 +127,16 @@
   background-repeat: no-repeat;
   background-size: 100% auto;
   margin-top: -10px; */
-  height: 60vh;
+  height: 65vh;
  
 
+}
+
+@media screen and (max-width: 755px){
+
+  #intro {
+    height: 39vh;
+  }
 }
 
 #pitch {
@@ -242,7 +265,13 @@ body {
   overflow-x: hidden;
   background-image: url('../src/images/Chicago.jpeg');
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 100%;
+}
+
+@media screen and (max-width: 755px){
+  /* body {
+    background-size: 100%;
+  } */
 }
 
 .partner {
