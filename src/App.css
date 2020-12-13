@@ -51,6 +51,8 @@
   /* width: 50%; */
   /* margin: auto; */
 
+  background-color: #254168;
+
 }
 
 /* CSS for Nav bar collapse on mobile phone*/
@@ -129,6 +131,9 @@
   margin-top: -10px; */
   height: 65vh;
  
+  background-image: url('https://globrockimages.s3.us-east-2.amazonaws.com/images/Chicago.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 
 }
 
@@ -263,14 +268,15 @@ html{
 body {
   /* background-color: #0A4B78; */
   overflow-x: hidden;
-  background-image: url('https://globrockimages.s3.us-east-2.amazonaws.com/images/Chicago.jpeg');
+  /* background-image: url('https://globrockimages.s3.us-east-2.amazonaws.com/images/Chicago.jpeg');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%; */
 }
 
 @media screen and (max-width: 755px){
   /* body {
-    background-size: 100%;
+    background-size: 100% ;
+    
   } */
 }
 
