@@ -156,11 +156,10 @@
 
 @media screen and (max-width: 755px){
 
-  /* #intro {
-    height: 70vh;
-    background-size: 400% 400%;
+  #intro {
+    height: 55vh;
     
-  } */
+  }
 }
 
 #pitch {
