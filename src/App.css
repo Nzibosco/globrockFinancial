@@ -58,6 +58,12 @@
 
 }
 
+@media screen and (max-width: 755px){
+  #navbar {
+    text-align: center;
+  }
+}
+
 /* CSS for Nav bar collapse on mobile phone*/
 
 @media (max-width: 992px) {
@@ -101,9 +107,9 @@
 
 @media screen and (max-width: 755px){
 
-  /* #brandName {
+  #brandName {
     display: none;
-  } */
+  }
 }
 
 #financial {
@@ -268,11 +274,11 @@ footer {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#giraffe {
+/* #giraffe {
   height: 100%;
   width: 100%;
   margin: 0;
-}
+} */
 
 html{ 
   overflow-x: hidden;
@@ -288,8 +294,17 @@ body {
 
 @media screen and (max-width: 755px){
   body {
-    background-size: 350% 90% ;
+    background-size: 350% 80% ;
     
+  }
+
+  #logo {
+    width: 70%;
+    margin-left: auto;
+  }
+
+  #highlight {
+    padding-top: 20%;
   }
 }
 
