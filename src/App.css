@@ -263,7 +263,7 @@ html{
 body {
   /* background-color: #0A4B78; */
   overflow-x: hidden;
-  background-image: url('../src/images/Chicago.jpeg');
+  background-image: url('https://globrockimages.s3.us-east-2.amazonaws.com/images/Chicago.jpeg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -275,7 +275,7 @@ body {
 }
 
 .partner {
-  color: white;
+  color: white; 
 }
 
 .footerItem {
