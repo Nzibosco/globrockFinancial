@@ -51,7 +51,10 @@
   /* width: 50%; */
   /* margin: auto; */
 
-  background-color: #254168;
+  /* background-color: #254168; */
+
+
+
 
 }
 
@@ -96,6 +99,13 @@
   
 }
 
+@media screen and (max-width: 755px){
+
+  /* #brandName {
+    display: none;
+  } */
+}
+
 #financial {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
@@ -129,19 +139,22 @@
   background-repeat: no-repeat;
   background-size: 100% auto;
   margin-top: -10px; */
-  height: 65vh;
+  height: 60vh;
  
-  background-image: url('https://globrockimages.s3.us-east-2.amazonaws.com/images/Chicago.jpeg');
+  /* background-image: url('https://globrockimages.s3.us-east-2.amazonaws.com/images/Chicago.jpeg');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 65vh; */
 
 }
 
+
 @media screen and (max-width: 755px){
 
-  #intro {
-    height: 39vh;
-  }
+  /* #intro {
+    height: 70vh;
+    background-size: 400% 400%;
+    
+  } */
 }
 
 #pitch {
@@ -268,16 +281,16 @@ html{
 body {
   /* background-color: #0A4B78; */
   overflow-x: hidden;
-  /* background-image: url('https://globrockimages.s3.us-east-2.amazonaws.com/images/Chicago.jpeg');
+  background-image: url('https://globrockimages.s3.us-east-2.amazonaws.com/images/Chicago.jpeg');
   background-repeat: no-repeat;
-  background-size: 100%; */
+  background-size: 100%;
 }
 
 @media screen and (max-width: 755px){
-  /* body {
-    background-size: 100% ;
+  body {
+    background-size: 300% 100% ;
     
-  } */
+  }
 }
 
 .partner {
