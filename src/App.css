@@ -154,6 +154,7 @@
 }
 
 
+
 @media screen and (max-width: 755px){
 
   #intro {
@@ -163,7 +164,22 @@
 }
 
 #pitch {
-  color: rgb(55, 16, 165)
+  background-color: lightgray;
+  height: 25rem;
+}
+
+#pitchContent {
+  background-color: lightgray;
+  border-style: none;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  top: 15%;
+  color: #0A4B78;
+}
+
+#explore {
+  width: max-content;
+  border-radius: 20px;
 }
 
 #carouselExampleCaptions {
