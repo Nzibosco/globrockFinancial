@@ -58,6 +58,14 @@
 
 }
 
+#navButton {
+  border-color: white;
+  
+}
+#navToggler {
+  color: white;
+}
+
 @media screen and (max-width: 755px){
   #navbar {
     text-align: center;
@@ -310,8 +318,8 @@ body {
 @media screen and (max-width: 755px){
   body {
     background-size: 350% 80% ;
-    
   }
+
 
   #logo {
     width: 70%;

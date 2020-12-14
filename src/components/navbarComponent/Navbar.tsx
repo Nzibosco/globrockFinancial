@@ -7,8 +7,8 @@ export default function Navbar() {
 
     <nav className="navbar navbar-expand-lg navbar-light" id="navbar">
       <Link className="navbar-brand" to='' id="logo">GlobRock Financial</Link>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
+      <button id= "navButton" className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span id= "navToggler" className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav" id="nav-links">
